@@ -1,0 +1,112 @@
+
+body {
+        background-color: black;
+}
+
+.container {
+    margin: 0 auto;
+    height: 100vh;
+    width: 80%;
+
+}
+
+/*--------- Navbar -----------*/
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.logo-box {
+    padding: 20px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.line {
+    margin: 10px 0px 0px 10px;
+border: 1px solid whitesmoke;
+height: 50px;
+text-align:left;
+}
+
+.arrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 2px;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.list {
+    font-family: "Montserrat", serif;
+    font-weight: 400;
+    width: 700px;
+    height:50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.list-item {
+    color: white;
+    list-style: none;
+    justify-content: flex-start;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 50px;
+}
+
+.button-small {
+    margin-top: 10px;
+    padding: 10px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: #BA0DC5;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    border: 0;
+    font-family: "Montserrat", serif;
+}
+
+/*--------- Main -----------*/
+
+.hero {
+    margin: 0px auto;
+    background-image:url("./assets/bg.png");
+    background-repeat: no-repeat;
+    height: 100vh;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.hero-heading {
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    font-family: "Montserrat", serif;
+    font-size: 80px;
+    color: white;
+}
+.hero-description {
+    font-size: 34px;
+    font-family: "Montserrat", serif;
+    color: white;
+}
+.button-large {
+    padding: 15px;
+    text-align: center;
+    background-color: #BA0DC5;
+    font-size: 34px;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    font-family: "Poppins", serif;
+}
